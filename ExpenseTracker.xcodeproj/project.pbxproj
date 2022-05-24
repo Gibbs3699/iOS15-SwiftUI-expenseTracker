@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1CEBFA283CC50A0001798C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1CEBF9283CC50A0001798C /* Extension.swift */; };
 		DC686B1B283CBBCE00414DCF /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC686B1A283CBBCE00414DCF /* ExpenseTrackerApp.swift */; };
 		DC686B1D283CBBCE00414DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC686B1C283CBBCE00414DCF /* ContentView.swift */; };
 		DC686B1F283CBBCE00414DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC686B1E283CBBCE00414DCF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC1CEBF9283CC50A0001798C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		DC686B17283CBBCE00414DCF /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC686B1A283CBBCE00414DCF /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		DC686B1C283CBBCE00414DCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				DC686B1A283CBBCE00414DCF /* ExpenseTrackerApp.swift */,
 				DC686B1C283CBBCE00414DCF /* ContentView.swift */,
+				DC1CEBF9283CC50A0001798C /* Extension.swift */,
 				DC686B1E283CBBCE00414DCF /* Assets.xcassets */,
 				DC686B20283CBBCE00414DCF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC1CEBFA283CC50A0001798C /* Extension.swift in Sources */,
 				DC686B1D283CBBCE00414DCF /* ContentView.swift in Sources */,
 				DC686B1B283CBBCE00414DCF /* ExpenseTrackerApp.swift in Sources */,
 			);
